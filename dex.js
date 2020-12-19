@@ -1,5 +1,5 @@
 const poke_container = document.getElementById('poke_container');
-const pokemons_number = 150; //since there are 150 pokemons in gen 1, mew not included :")
+const pokemons_number = 151; //since there are 150 pokemons in gen 1, mew not included :")
 const colors = {
 	fire: '#FDDFDF',               //colour of bg of card based on type
 	grass: '#DEFDE0',                    
