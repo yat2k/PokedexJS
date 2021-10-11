@@ -16,6 +16,7 @@ const colors = {
 	fighting: '#C03028',
 	normal: '#A8A878'
 };
+alert("This site is still a work in progress! More features will be added to make the UI/UX better as time passes! :)");
 const main_types = Object.keys(colors);
 
 const fetchPokemons = async () => {
