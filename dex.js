@@ -45,8 +45,8 @@ function createPokemonCard(pokemon) {
 
 	const pokeInnerHTML = `
         <div class="img-container">
-            <img src="https://pokeres.bastionbot.org/images/pokemon/${
-							pokemon.id
+            <img src="https://pokemondb.net/pokedex/${
+							pokemon.name
 						}.png" alt="${name}" />    
         </div>
         <div class="info">
