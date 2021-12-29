@@ -47,7 +47,7 @@ function createPokemonCard(pokemon) {
         <div class="img-container">
             <img src="https://pokemondb.net/pokedex/${
 							pokemon.name
-						}.png" alt="${name}" />    
+						}.jpg" alt="${name}" />    
         </div>
         <div class="info">
             <span class="number">#${pokemon.id
