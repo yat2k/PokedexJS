@@ -53,7 +53,7 @@ function createPokemonCard(pokemon) {
             <span class="number">#${pokemon.id
 							.toString()
 							.padStart(3, '0')}</span>
-            <h3 class="name">${name}</h3>
+            <h3 class="name"><a href="https://www.pokemon.com/us/pokedex/${name}">${name}</a></h3>
             <small class="type">Type: <span>${type}</span></small>
         </div>
     `;         //used that site for fetching pokemon sprites and then within that its adjusted
@@ -61,6 +61,10 @@ function createPokemonCard(pokemon) {
 	pokemonEl.innerHTML = pokeInnerHTML;
 
 	poke_container.appendChild(pokemonEl); //the pokemons are added slowly in the page
+}
+
+function getInformation(){
+	$$(
 }
 
 fetchPokemons(); //tadaaaa!!
