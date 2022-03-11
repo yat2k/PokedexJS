@@ -53,7 +53,7 @@ function createPokemonCard(pokemon) {
             <span class="number">#${pokemon.id
 							.toString()
 							.padStart(3, '0')}</span>
-            <h3 class="name"><a href="https://www.pokemon.com/us/pokedex/${name}">${name}</a></h3>
+            <h3 class="name"><a href="https://www.pokemon.com/us/pokedex/${name}/" target="_blank">${name}</a></h3>
             <small class="type">Type: <span>${type}</span></small>
         </div>
     `;         //used that site for fetching pokemon sprites and then within that its adjusted
