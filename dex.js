@@ -63,8 +63,8 @@ function createPokemonCard(pokemon) {
 	poke_container.appendChild(pokemonEl); //the pokemons are added slowly in the page
 }
 
-function getInformation(){
-	$$(
-}
+//function getInformation(){         coming soon xD
+//	$$(
+//}
 
 fetchPokemons(); //tadaaaa!!
